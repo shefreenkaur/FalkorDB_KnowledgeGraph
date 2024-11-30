@@ -1,4 +1,4 @@
-#to import the dump file, you would need to have the following:
+***To import the dump file, you would need to have the following:**
 
 1) Have Docker running
 2) Have FalkorDB container running
