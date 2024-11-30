@@ -9,7 +9,7 @@ Once WSL2 is installed, you would need to install and enable redis.
 
 --I followed the instructions provided here.-- <https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-windows/> 
 
-1) Docker
+2) Docker
 
 ## Set-up
 1) Start with loading docker first
@@ -25,7 +25,7 @@ Once WSL2 is installed, you would need to install and enable redis.
 
 *docker run -p 6379:6379 -p 3000:3000 -it --rm -v ./data:/data falkordb/falkordb:edge*
 
-1) Open ubuntu
+2) Open ubuntu
 
    (keep the other docker terminal running)
 
@@ -38,7 +38,7 @@ Once WSL2 is installed, you would need to install and enable redis.
 
    `	`--the second command is just to test if redis cli is working properly.--
 
-1) Manually loading FalkorDB into Redis using a local connection
+3) Manually loading FalkorDB into Redis using a local connection
 
    Command 3:
 
@@ -63,7 +63,7 @@ The script file I used is based on an already created UML Class diagram of the U
 
 The script is available in the repository.
 
-1) Copying the script file to the container 
+2) Copying the script file to the container 
 
    Command 6:
 
@@ -76,7 +76,7 @@ The script is available in the repository.
 
 
 
-1) Running the script file
+3) Running the script file
 
    Command 7: 
 
@@ -130,7 +130,7 @@ Query: MATCH (n)-[r]->(m) RETURN n, r, m LIMIT 100
 ![image](https://github.com/user-attachments/assets/8a3cf6fd-86a7-41d2-b378-2df0f1b6787a)
 
 
-1) "Commands - FalkorDB Docs." <https://docs.falkordb.com/commands/>.
+4) "Commands - FalkorDB Docs." <https://docs.falkordb.com/commands/>.
 
 
 
